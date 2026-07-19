@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vinay G — Solution Architect (Healthcare/FHIR) & local-first AI</title>
+<meta name="description" content="Solution Architect — healthcare interoperability (HL7/FHIR) and local-first AI developer tools. Creator of HireSignal & Freeway.">
+<!-- NOTE: uses your real name + no employer. To go pseudonymous, change the name/headline to your handle. -->
+<style>
+  :root { --bg:#100e0c; --card:#191512; --line:rgba(255,255,255,.08); --fg:#f2ede6; --muted:#b7afa3; --accent:#57c48a; --link:#8bbfe0; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; color:var(--fg); line-height:1.6;
+    background:radial-gradient(1000px 600px at 82% -12%, #22513c 0%, #171412 42%, #100e0c 100%); -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:840px; margin:0 auto; padding:72px 24px 96px; }
+  header h1 { font-size:38px; font-weight:800; letter-spacing:-1px; }
+  header .role { color:var(--accent); font-size:19px; font-weight:700; margin-top:8px; }
+  header p { color:var(--muted); font-size:17px; margin-top:12px; max-width:640px; }
+  .links { margin-top:22px; display:flex; gap:12px; flex-wrap:wrap; }
+  .btn { display:inline-block; padding:9px 16px; border-radius:10px; font-weight:600; font-size:14px; text-decoration:none; border:1px solid var(--line); color:var(--fg); }
+  .btn.primary { background:var(--accent); color:#0d0b0a; border-color:transparent; }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:1.6px; color:var(--muted); margin:56px 0 18px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; overflow:hidden; }
+  .card + .card { margin-top:18px; }
+  .card .body { padding:22px 24px; }
+  .card h3 a { color:var(--fg); text-decoration:none; font-size:21px; font-weight:700; }
+  .card p { color:var(--muted); margin-top:8px; }
+  .card img { width:100%; display:block; border-top:1px solid var(--line); }
+  .tags { margin-top:14px; display:flex; gap:8px; flex-wrap:wrap; }
+  .tag { font-size:12px; font-weight:600; padding:5px 11px; border-radius:999px; background:rgba(87,196,138,.12); color:#8fe0b3; border:1px solid rgba(87,196,138,.28); }
+  .tag.alt { background:rgba(255,255,255,.05); color:#d8d1c7; border-color:var(--line); }
+  .skillgroup { margin-bottom:16px; }
+  .skillgroup .lbl { font-size:13px; font-weight:700; color:var(--fg); margin-bottom:8px; }
+  a.link { color:var(--link); text-decoration:none; } a.link:hover { text-decoration:underline; }
+  footer { margin-top:60px; color:var(--muted); font-size:14px; border-top:1px solid var(--line); padding-top:20px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Vinay G</h1>
+      <div class="role">Solution Architect — Healthcare Interoperability (HL7/FHIR) &amp; Local-first AI</div>
+      <p>16+ years building enterprise healthcare data-exchange platforms on cloud-native, event-driven
+         architectures — and shipping open-source, privacy-first developer tools that run on your own machine.</p>
+      <div class="links">
+        <a class="btn primary" href="https://github.com/vinaygiri">GitHub</a>
+        <a class="btn" href="https://github.com/vinaygiri/hiresignal-personal">HireSignal</a>
+        <a class="btn" href="https://github.com/vinaygiri/freeway">Freeway</a>
+      </div>
+    </header>
+
+    <h2>Open-source projects</h2>
+    <div class="card">
+      <div class="body">
+        <h3><a href="https://github.com/vinaygiri/hiresignal-personal">HireSignal →</a></h3>
+        <p>A private, local job-search engine for technical roles: semantic résumé ↔ job matching
+           (Ollama + sqlite-vec), AI fit-scoring, company due-diligence, and one-click apply — all on
+           your machine, for free. Open source (MIT).</p>
+        <div class="tags">
+          <span class="tag">Next.js</span><span class="tag alt">TypeScript</span>
+          <span class="tag alt">SQLite · vector search</span><span class="tag alt">Ollama</span>
+          <span class="tag alt">local-first</span>
+        </div>
+      </div>
+      <img src="https://raw.githubusercontent.com/vinaygiri/hiresignal-personal/main/docs/screenshots/dashboard.png"
+           alt="HireSignal dashboard" loading="lazy">
+    </div>
+    <div class="card">
+      <div class="body">
+        <h3><a href="https://github.com/vinaygiri/freeway">Freeway →</a></h3>
+        <p>A local AI gateway that routes Claude Code, Codex &amp; any OpenAI-compatible coding tool
+           across 26 free-tier providers — with auto-failover, quota-aware routing, and request auto-fit,
+           so “free” actually lasts. Open source.</p>
+        <div class="tags">
+          <span class="tag">Python</span><span class="tag alt">FastAPI</span>
+          <span class="tag alt">LLM routing</span><span class="tag alt">gateway / proxy</span>
+          <span class="tag alt">self-hosted</span>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="body">
+        <h3><a href="https://github.com/vinaygiri/fleetmind">Fleetmind →</a></h3>
+        <p>A one-command installer that stands up a <strong>fleet of AI coding agents</strong> —
+           isolated parallel worktrees, long-running autonomous loops, and a risk-tiered review gate
+           that checks every change. Works with GitHub &amp; GitLab. Open source (MIT).</p>
+        <div class="tags">
+          <span class="tag">Shell / CLI</span><span class="tag alt">agentic AI</span>
+          <span class="tag alt">Claude Code</span><span class="tag alt">code review</span>
+          <span class="tag alt">GitHub · GitLab</span>
+        </div>
+      </div>
+      <img src="https://raw.githubusercontent.com/vinaygiri/fleetmind/main/demo/demo.gif"
+           alt="Fleetmind demo" loading="lazy">
+    </div>
+
+    <h2>What I do</h2>
+    <div class="skillgroup"><div class="lbl">Healthcare interoperability</div>
+      <div class="tags">
+        <span class="tag alt">HL7 v2/v3</span><span class="tag alt">FHIR R4</span><span class="tag alt">USCDI</span>
+        <span class="tag alt">C-CDA</span><span class="tag alt">EDI X12 (837/835)</span><span class="tag alt">EMPI</span>
+        <span class="tag alt">ONC/CMS compliance</span><span class="tag alt">EHR/EMR &amp; payer integration</span>
+      </div>
+    </div>
+    <div class="skillgroup"><div class="lbl">Engineering</div>
+      <div class="tags">
+        <span class="tag alt">Node.js</span><span class="tag alt">TypeScript</span><span class="tag alt">Next.js</span>
+        <span class="tag alt">Python</span><span class="tag alt">microservices</span><span class="tag alt">event-driven</span>
+        <span class="tag alt">REST APIs</span><span class="tag alt">SQL Server / PostgreSQL</span>
+      </div>
+    </div>
+    <div class="skillgroup"><div class="lbl">Cloud &amp; platform</div>
+      <div class="tags">
+        <span class="tag alt">Azure (ADF · AKS · APIM · FHIR Server)</span><span class="tag alt">AWS HealthLake</span>
+        <span class="tag alt">GCP</span><span class="tag alt">Docker</span><span class="tag alt">Kubernetes</span>
+        <span class="tag alt">CI/CD</span>
+      </div>
+    </div>
+    <div class="skillgroup"><div class="lbl">AI</div>
+      <div class="tags">
+        <span class="tag alt">local LLMs (Ollama)</span><span class="tag alt">multi-LLM orchestration</span>
+        <span class="tag alt">agentic workflows</span><span class="tag alt">semantic / vector search</span>
+      </div>
+    </div>
+
+    <footer>
+      📍 India · Solution architecture · healthcare interoperability · applied AI ·
+      <a class="link" href="https://github.com/vinaygiri">GitHub →</a>
+    </footer>
+  </div>
+</body>
+</html>
